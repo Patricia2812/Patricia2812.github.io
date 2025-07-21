@@ -183,8 +183,23 @@ button:hover{
 }
 
 @media only screen and (max-width: 1100px) {
-  body {
+  .quiz {
     margin-left: 0;
   }
+
+  @media only screen and (max-width: 700px) {
+  .quiz{
+    width: 600px;
+  }
+  .question-box {
+  width: 80%;
+  padding: 0.8rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #122f42;
+}
+}
+
 }
 </style>
