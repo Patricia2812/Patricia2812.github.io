@@ -181,4 +181,67 @@ button:hover{
   color: #0b1116;
   transition: background-color 0.3s ease;
 }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    margin-right: 10rem;
+  }
+
+  @media only screen and (max-width: 800px) {
+    body {
+    margin-right: 20rem;
+    }
+
+  .quiz {
+    padding: 1rem;
+    width: 90%;
+  }
+
+  .question-box {
+    padding: 0.8rem;
+    font-size: 1.2rem;
+
+  }
+
+  .answers-row button {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  .restart-btn {
+    padding: 0.5rem;
+    width: 40%;
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  body {
+    margin-left: 4rem;
+    }
+
+  .quiz {
+    padding: 1rem;
+    width: 70%;
+  }
+
+  .question-box {
+    padding: 0.8rem;
+    font-size: 1rem;
+
+  }
+
+  .answers-row button {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .restart-btn {
+    padding: 0.5rem;
+    width: 40%;
+    font-size: 0.8rem;
+  }
+}
+
+}
 </style>
