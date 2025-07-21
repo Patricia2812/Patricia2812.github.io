@@ -181,4 +181,10 @@ button:hover{
   color: #0b1116;
   transition: background-color 0.3s ease;
 }
+
+@media only screen and (max-width: 1100px) {
+  body {
+    margin-left: 0;
+  }
+}
 </style>
